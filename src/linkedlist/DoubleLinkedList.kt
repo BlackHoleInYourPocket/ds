@@ -8,6 +8,8 @@ data class DoubleNode<T>(var value: T, var next: DoubleNode<T>?, var prev: Doubl
 }
 
 class DoubleLinkedList<T> : ILinkedList<T, DoubleLinkedList<T>, DoubleNode<T>> {
+    val first
+        get() = head
     private var head: DoubleNode<T>? = null
     private var tail: DoubleNode<T>? = null
     private var size = 0
