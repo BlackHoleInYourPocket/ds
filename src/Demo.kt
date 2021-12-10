@@ -12,4 +12,5 @@ fun main(args: Array<String>) {
     val doubleLinkedList = DoubleLinkedList<Int>().apply { }
     val stack = Stack<Int>().apply { }
     val arrayListQueue = ArrayListQueue<Int>().apply { }
+    val linkedListQueue = LinkedListQueue<Int>().apply { }
 }
